@@ -1,0 +1,30 @@
+.modalHeader {
+  margin-left: 20px;
+  border: none !important;
+}
+
+.input {
+  width: 430px;
+  height: 40px;
+  margin-left: 10px;
+  padding-left: 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.input::placeholder {
+  color: lightgray;
+  font-size: 20px;
+}
+.paragraph {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+.modalBottom {
+  border: none !important;
+  .bottomButton {
+    color: black;
+    font-weight: 600;
+  }
+}

@@ -1,15 +1,15 @@
 import React from 'react'
+import styles from './Add.module.scss'
 
-function Add({ HandleClick }) {
+function Add({ addColumn }) {
 
     return (
         
-            <div >
-                <button onCLick={HandleClick}>+ Add a new column</button>
+            <div className={styles.addColumn}>
+                <button onClick={addColumn}>+ Add a new column</button>
             </div>            
         
     )
 }
 
 export default Add
-// className={styles.addColumn}
